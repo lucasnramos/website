@@ -6,6 +6,7 @@
   "scripts": {
     "start": "live-server ./src",
     "tailwind": "tailwindcss -i ./src/tailwind.css -o ./src/style.css",
+    "tailwind:build": "tailwindcss -i ./src/tailwind.css -o ./src/style.css --minify",
     "tailwind:watch": "tailwindcss -i ./src/tailwind.css -o ./src/style.css --watch"
   },
   "repository": {
