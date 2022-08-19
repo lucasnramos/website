@@ -4,7 +4,9 @@
   "description": "My personal website",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ./src"
+    "start": "live-server ./src",
+    "tailwind": "tailwindcss -i ./src/tailwind.css -o ./src/style.css",
+    "tailwind:watch": "tailwindcss -i ./src/tailwind.css -o ./src/style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,9 @@
     "url": "https://github.com/lucasnramos/website/issues"
   },
   "homepage": "https://lucasnramos.com",
-  "dependencies": {
-    "http-server": "^14.1.1"
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "nodemon": "^2.0.19",
+    "tailwindcss": "^3.1.8"
   }
 }

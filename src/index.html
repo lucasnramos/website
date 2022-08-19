@@ -4,124 +4,193 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lucas N. Ramos</title>
+    <!-- for development only -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <title>Lucas Nogueira Ramos</title>
   </head>
-  <body>
-    <h1>Lucas Nogueira Ramos</h1>
-    <p>
-      contact@lucasnramos.com |
-      <a href="https://www.linkedin.com/in/lucas-nogueira-ramos/?locale=en_US">
-        LinkedIn
-      </a>
-      | <a href="htts://github.com/lucasnramos">Github</a>
-    </p>
 
-    <h2>Work Experience</h2>
+  <body class="bg-slate-800 text-slate-300">
+    <main class="">
+      <header id="header-with-picture" class="container mx-auto p-5 center">
+        <div class="grid place-items-center">
+          <img class="w-32 rounded-full" src="images/Perfil.jpg" alt="profile picture" />
+          <h1 class="text-3xl md:text-4xl font-bold text-slate-200">Lucas Nogueira Ramos</h1>
+          <p class="text-lg text-slate-300">
+            Web and mobile developer based in Brazil, frontend developer at
+            <a href="https://www.gft.com/" target="_blank" rel="noopener noreferrer">GFT Group</a>
+          </p>
+        </div>
+        <ul class="navbar flex justify-center space-x-5 my-5">
+          <li>
+            <a
+              class="hover:text-blue-500"
+              title="contact@lucasnramos.com"
+              href="mailto:contact@lucasnramos.com"
+              >Email</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-blue-500" href="htts://github.com/lucasnramos">Github</a>
+          </li>
+          <li>
+            <a
+              class="hover:text-blue-500"
+              href="https://www.linkedin.com/in/lucas-nogueira-ramos/?locale=en_US"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </header>
 
-    <h3>Systems Analyst - GFT Technologies</h3>
-    <p>November 2019 - Present</p>
-    <h4>Project: Spotify for Brands - SEA</h4>
-    <p>
-      Redesigned the Spotify For Brands portal for the South East Asia market,
-      integrated with Contentful for multi-lingual content management.
-      Implemented the contact form, integrated with Pardot; Responsive design
-      based on UI provided by the client; Developed 11 of the components used by
-      the application using Next.js. <b>Environment:</b> Next.js, React.js,
-      SASS, Styled Components, SEO, Google Cloud Platform, Contentful, Pardot,
-      Responsive design
-    </p>
-    <p>
-      Project: Process Twins - Google An online Digital Twin application with
-      Drag and Drop capabilities and a 3D canvas to design the processes. The
-      user can setup parameters, alerts and outputs and simulate a manufacturing
-      run. The application also provides reporting and comparison for the
-      finished simulations. Developed Google Authentication using Firebase and
-      Google Platform ID; Developed integration with the Java API; Component and
-      library based design. <b>Environment:</b> Nrwl's NX, Angular, Material
-      Design, Boostrap, SASS, Firebase, Google Cloud Platform, Java, Maven,
-      mxGraph.
-    </p>
+      <section id="skills" class="container mx-auto mb-10">
+        <h2 class="font-bold text-3xl text-slate-200 mb-4">Skills and Qualifications</h2>
+        <p>✔ 7 years experience with JavaScript and frontend development</p>
+        <p>✔ 4 years experience with TypeScript</p>
+        <p>✔ Proficient Angular 2+ developer</p>
+        <p>✔ Experienced in React.js</p>
+        <p>✔ Google Certified Cloud Associate Engineer</p>
+        <p>✔ Studying Java</p>
+      </section>
 
-    <h3>Web & Mobile Developer - Coacht IT</h3>
-    <p>July 2018 - November 2019</p>
-    <h4>Managerial and Software Management</h4>
-    <p>
-      Mentored other junior web developers; - Implemented git workflow for all
-      non-SAP project in the Software Factory;
-    </p>
-    <h4>Project: NextMobile</h4>
-    <p>
-      A hybrid mobile (iOS and Android) and PWA solution integrated with
-      backoffice SAP ERP, supporting approval and requests of purchase orders,
-      invoices, travel expenses, and other finance processes. Developed &
-      maintained the hybrid mobile and PWA solution; Built and implemented a
-      serverless REST API with Nodejs; Developed the integration with
-      third-party API through RxJS and Observable (Reactive programming).
-      <b>Environment:</b> Ionic, Cordova, Angular, Firebase, Google Cloud
-      Platform, Nodejs, Express, REST API
-    </p>
-    <h4>Project: Transfer Price and CAT42</h4>
-    <p>
-      Online solution built for calculating the best transfer price and CAT42
-      (Brazilian tax return for companies) for companies across the Brazilian
-      market. Developed the UI/UX for the application using Razor template
-      engine and jQuery with responsive design (mobile first).
-      <b>Environment:</b> .NET Core, C#, SQL Server, Razor, jQuery, SASS,
-      Bootstrap, Gulp;
-    </p>
-    <h4>Project: "Work with Us" section of the website</h4>
-    <p>
-      ATS system built for easier management for candidates resumes and
-      screening by management. Developed and maintained the project's
-      application using MVC pattern; Hosted and managed using LAMP stack;
-      Front-end application using the Blade templete engine and jQuery.
-      <b>Environment:</b> PHP, Laravel, Blade, jQuery, SASS, Bootstrap, LAMP,
-      Composer, MySQL, MVC.
-    </p>
+      <section id="work-experience" class="container mx-auto">
+        <h2 class="font-bold text-3xl text-slate-200 mb-4">Work Experience</h2>
 
-    <h3>Web developer - Freelance</h3>
-    <p>October 2015 - July 2018</p>
-    As a freelance developer, I've built websites to help small businesses
-    expand online and increase sales. I've also helped to promote their sites on
-    social media to engage customers and provided SEO services which to improve
-    their position on sites like Google, Bing, Yahoo!.
-    <h4>Projects</h4>
-    <ul>
-      <li>
-        Trabis Engenharia:
-        <a href="https://trabis.com.br" target="_blank"
-          >https://trabis.com.br</a
-        >
-      </li>
-      <li>
-        Lilian Bertin:
-        <a href="https://www.lilianbertin.com.br" target="_blank"
-          >https://www.lilianbertin.com.br</a
-        >
-      </li>
-      <li>
-        Projetec Sorocaba:
-        <a href="https://projetecsorocaba.com.br" target="_blank"
-          >https://projetecsorocaba.com.br</a
-        >
-      </li>
-      <li>
-        Workana - Algorithm resolutions with online video classes (UML, OOP)
-      </li>
-      <li>
-        Workana - Convert WordPress theme to a pure HTML / CSS / JavaScript
-        application to be used on another back-end platform
-      </li>
-      <li>
-        Kussens Op Maat:
-        <a href="https://www.kussens-op-maat.be" target="_blank"
-          >https://www.kussens-op-maat.be</a
-        >
-      </li>
-    </ul>
+        <div id="company-gft" class="my-5">
+          <h3 class="uppercase text-xl text-slate-200 font-bold">
+            Frontend developer - GFT Technologies
+          </h3>
+          <p class="text-lg font-bold">November 2019 - Present</p>
+          <div class="project my-3">
+            <h4 class="font-bold italic my-1">Project: Youse Six - Youse Seguradora</h4>
+            <p>
+              Developing new functionality for the current portal where a third party can open and
+              follow up with an insurance claim.
+            </p>
+            <p>
+              <b>Environment:</b> React.js, CircleCI, Ruby on Rails, AWS Platform, Responsive design
+            </p>
+          </div>
 
-    <h2>Education</h2>
-    <h3>Degree: System Analysis and Development</h3>
-    <h4>Institution: Faculdade de Tecnologia de Sorocaba</h4>
+          <div class="project my-3">
+            <h4 class="font-bold italic my-1">Project: Phoenix - BNY Mellon</h4>
+            <p>
+              Online solution for Pricing and Liquidity processes for assets and investment funds
+              managed by the client. I was responsible for prototyping with the client, creating new
+              functionalities, code maintenance, code review and code approval. Written the frontend
+              application using Angular v9
+            </p>
+            <p>
+              <b>Environment:</b> Next.js, React.js, SASS, Styled Components, SEO, Google Cloud
+              Platform, Contentful, Pardot, Responsive design
+            </p>
+          </div>
+
+          <div class="project my-3">
+            <h4 class="font-bold italic my-1">
+              Project: Spotify for Brands - South East Asia - Spotify
+            </h4>
+            <p>
+              Redesigned the Spotify For Brands portal for the South East Asia market, integrated
+              with Contentful for multi-lingual content management. Implemented the contact form,
+              integrated with Pardot; Responsive design based on UI provided by the client;
+              Developed 11 of the components used by the application using Next.js.
+            </p>
+            <p>
+              <b>Environment:</b> Next.js, React.js, SASS, Styled Components, SEO, Google Cloud
+              Platform, Contentful, Pardot, Responsive design
+            </p>
+          </div>
+          <div class="project my-3">
+            <h4 class="font-bold italic my-1">Project: Process Twins - Google</h4>
+            <p>
+              An online Digital Twin application with Drag and Drop capabilities and a 3D canvas to
+              design the processes. The user can setup parameters, alerts and outputs and simulate a
+              manufacturing run. The application also provides reporting and comparison for the
+              finished simulations. Developed Google Authentication using Firebase and Google
+              Platform ID; Developed integration with the Java API; Component and library based
+              design.
+            </p>
+            <p>
+              <b>Environment:</b> Nrwl's NX, Angular, Material Design, Boostrap, SASS, Firebase,
+              Google Cloud Platform, Java, Maven, mxGraph.
+            </p>
+          </div>
+          <div class="project my-3"></div>
+        </div>
+
+        <div id="company-coach" class="my-5">
+          <h3 class="uppercase text-xl text-slate-200 font-bold">
+            Web & Mobile Developer - Coacht IT
+          </h3>
+          <p class="text-lg font-bold">July 2018 - November 2019</p>
+          <div class="project my-3">
+            <h4 class="font-bold my-1 italic">Managerial and Software Management</h4>
+            <p>
+              Mentored other junior web developers; - Implemented git workflow for all non-SAP
+              projects;
+            </p>
+          </div>
+          <div class="project my-3">
+            <h4 class="font-bold italic my-2">Project: NextMobile</h4>
+            <p>
+              A hybrid mobile (iOS and Android) and PWA solution integrated with backoffice SAP ERP,
+              supporting approval and requests of purchase orders, invoices, travel expenses, and
+              other finance processes. Developed & maintained the hybrid mobile and PWA solution;
+              Built and implemented a serverless REST API with Nodejs; Developed the integration
+              with third-party API through RxJS and Observable (Reactive programming).
+            </p>
+            <p>
+              <b>Environment:</b> Ionic, Cordova, Angular, Firebase, Google Cloud Platform, Nodejs,
+              Express, REST API
+            </p>
+          </div>
+          <div class="project my-3">
+            <h4 class="font-bold my-1 italic">Project: Transfer Price and CAT42</h4>
+            <p>
+              Online solution built for calculating the best transfer price and CAT42 (Brazilian tax
+              return for companies) for companies across the Brazilian market. Developed the UI/UX
+              for the application using Razor template engine and jQuery with responsive design
+              (mobile first).
+            </p>
+            <p>
+              <b>Environment:</b> .NET Core, C#, SQL Server, Razor, jQuery, SASS, Bootstrap, Gulp;
+            </p>
+          </div>
+          <div class="project my-3">
+            <h4 class="font-bold my-1 italic">Project: "Work with Us"</h4>
+            <p>
+              ATS system built for easier management for candidates resumes and screening by
+              management. Developed and maintained the project's application using MVC pattern;
+              Hosted and managed using LAMP stack; Front-end application using the Blade templete
+              engine and jQuery.
+            </p>
+            <p>
+              <b>Environment:</b> PHP, Laravel, Blade, jQuery, SASS, Bootstrap, LAMP, Composer,
+              MySQL, MVC.
+            </p>
+          </div>
+        </div>
+
+        <div id="company-freelance" class="my-5">
+          <h3>Web developer - Freelance</h3>
+          <p>October 2015 - July 2018</p>
+          As a freelance developer, I've built websites to help small businesses expand online and
+          increase sales. I've also helped to promote their sites on social media to engage
+          customers and provided SEO services which to improve their position on sites like Google,
+          Bing, Yahoo!.
+        </div>
+      </section>
+
+      <section id="education" class="container mx-auto">
+        <h2 class="font-bold text-2xl my-4">Education</h2>
+        <h3>Degree: System Analysis and Development</h3>
+        <h4>Institution: Faculdade de Tecnologia de Sorocaba</h4>
+
+        <h2>Certifications</h2>
+        <h3>Google Cloud Associate Engineer</h3>
+      </section>
+    </main>
   </body>
 </html>
