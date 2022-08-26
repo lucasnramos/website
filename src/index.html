@@ -12,29 +12,31 @@
 </head>
 
 <body class="bg-slate-800 text-slate-300">
-  <main class="container mx-auto px-3 md:px-0">
-    <header id="header-with-picture" class="mx-2 p-5 center">
-      <div class="grid place-items-center text-center">
-        <img class="w-32 rounded-full" src="images/Perfil.jpg" alt="profile picture" />
+  <main class="container mx-auto px-3 md:px-0 max-w-screen-md">
+    <header id="header-with-picture" class="mx-auto p-5 center text-center h-screen grid place-items-center">
+      <div id="header-content">
+        <img class="w-32 rounded-full mx-auto" src="images/Perfil.jpg" alt="profile picture" />
         <h1 class="text-3xl md:text-4xl font-bold text-slate-200">Lucas Nogueira Ramos</h1>
         <p class="text-lg text-slate-300">
           Web and mobile developer based in Brazil, frontend developer at
           <a href="https://www.gft.com/" target="_blank" rel="noopener noreferrer">GFT Group</a>
         </p>
+
+        <ul class="navbar flex justify-center space-x-5 my-5">
+          <li>
+            <a class="hover:text-blue-500" title="contact@lucasnramos.com"
+              href="mailto:contact@lucasnramos.com">Email</a>
+          </li>
+          <li>
+            <a class="hover:text-blue-500" href="htts://github.com/lucasnramos">Github</a>
+          </li>
+          <li>
+            <a class="hover:text-blue-500" href="https://www.linkedin.com/in/lucas-nogueira-ramos/?locale=en_US">
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul class="navbar flex justify-center space-x-5 my-5">
-        <li>
-          <a class="hover:text-blue-500" title="contact@lucasnramos.com" href="mailto:contact@lucasnramos.com">Email</a>
-        </li>
-        <li>
-          <a class="hover:text-blue-500" href="htts://github.com/lucasnramos">Github</a>
-        </li>
-        <li>
-          <a class="hover:text-blue-500" href="https://www.linkedin.com/in/lucas-nogueira-ramos/?locale=en_US">
-            LinkedIn
-          </a>
-        </li>
-      </ul>
     </header>
 
     <section id="skills" class="mb-10">
