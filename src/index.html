@@ -1,196 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- for development only -->
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <link rel="stylesheet" href="style.css" />
-    <title>Lucas Nogueira Ramos</title>
-  </head>
 
-  <body class="bg-slate-800 text-slate-300">
-    <main class="">
-      <header id="header-with-picture" class="container mx-auto p-5 center">
-        <div class="grid place-items-center">
-          <img class="w-32 rounded-full" src="images/Perfil.jpg" alt="profile picture" />
-          <h1 class="text-3xl md:text-4xl font-bold text-slate-200">Lucas Nogueira Ramos</h1>
-          <p class="text-lg text-slate-300">
-            Web and mobile developer based in Brazil, frontend developer at
-            <a href="https://www.gft.com/" target="_blank" rel="noopener noreferrer">GFT Group</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- for development only -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <title>Lucas Nogueira Ramos</title>
+</head>
+
+<body class="bg-slate-800 text-slate-300">
+  <main class="container mx-auto px-3 md:px-0">
+    <header id="header-with-picture" class="mx-2 p-5 center">
+      <div class="grid place-items-center text-center">
+        <img class="w-32 rounded-full" src="images/Perfil.jpg" alt="profile picture" />
+        <h1 class="text-3xl md:text-4xl font-bold text-slate-200">Lucas Nogueira Ramos</h1>
+        <p class="text-lg text-slate-300">
+          Web and mobile developer based in Brazil, frontend developer at
+          <a href="https://www.gft.com/" target="_blank" rel="noopener noreferrer">GFT Group</a>
+        </p>
+      </div>
+      <ul class="navbar flex justify-center space-x-5 my-5">
+        <li>
+          <a class="hover:text-blue-500" title="contact@lucasnramos.com" href="mailto:contact@lucasnramos.com">Email</a>
+        </li>
+        <li>
+          <a class="hover:text-blue-500" href="htts://github.com/lucasnramos">Github</a>
+        </li>
+        <li>
+          <a class="hover:text-blue-500" href="https://www.linkedin.com/in/lucas-nogueira-ramos/?locale=en_US">
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <section id="skills" class="mb-10">
+      <h2 class="font-bold text-3xl text-slate-200 mb-4">Skills and Qualifications</h2>
+      <p>✔ 7 years experience with JavaScript and frontend development</p>
+      <p>✔ 4 years experience with TypeScript</p>
+      <p>✔ Proficient Angular 2+ developer</p>
+      <p>✔ Experienced in React.js</p>
+      <p>✔ Google Certified Cloud Associate Engineer</p>
+      <p>✔ Studying Java</p>
+    </section>
+
+    <section id="work-experience" class=" ">
+      <h2 class="font-bold text-3xl text-slate-200 mb-4">Work Experience</h2>
+
+      <div id="company-gft" class="my-5">
+        <h3 class="uppercase text-xl text-slate-200 font-bold">
+          Frontend developer - GFT Technologies
+        </h3>
+        <p class="text-lg font-bold">November 2019 - Present</p>
+        <div class="project my-5">
+          <h4 class="font-bold italic my-1">Project: Youse Six - Youse Seguradora</h4>
+          <ul class="list-disc ml-10 my-2">
+            <li>Developing new functionality for the portal</li>
+            <li>Refactoring code to use TypeScript</li>
+            <li>Adding new components to internal Web Components library</li>
+          </ul>
+          <p class="leading-7">
+            <b>Technologies Used:</b>
+            <code class="bg-slate-700 rounded py-1 px-2">React.js</code>
+            <code class="bg-slate-700 rounded py-1 px-2">TypeScript</code>
+            <code class="bg-slate-700 rounded py-1 px-2">CircleCI</code>
+            <code class="bg-slate-700 rounded py-1 px-2">Ruby on Rails</code>
+            <code class="bg-slate-700 rounded py-1 px-2">AWS Platform</code>
+            <code class="bg-slate-700 rounded py-1 px-2">Responsive design</code>
           </p>
         </div>
-        <ul class="navbar flex justify-center space-x-5 my-5">
-          <li>
-            <a
-              class="hover:text-blue-500"
-              title="contact@lucasnramos.com"
-              href="mailto:contact@lucasnramos.com"
-              >Email</a
-            >
-          </li>
-          <li>
-            <a class="hover:text-blue-500" href="htts://github.com/lucasnramos">Github</a>
-          </li>
-          <li>
-            <a
-              class="hover:text-blue-500"
-              href="https://www.linkedin.com/in/lucas-nogueira-ramos/?locale=en_US"
-            >
-              LinkedIn
-            </a>
-          </li>
+
+        <div class="project my-5">
+          <h4 class="font-bold italic my-1">Project: Phoenix - BNY Mellon</h4>
+          <ul class="list-disc ml-10 my-2">
+            <li>Prototyped new pages, components and functionality with the client</li>
+            <li>API integration</li>
+            <li>Reactive services with RxJS</li>
+            <li>Conducted Code reviews for the frontend application</li>
+            <li>Maintenaed and refactored code</li>
+            <li>Helped design the frontend code architecture</li>
+          </ul>
+          <p class="leading-7">
+            <b>Technologies Used:</b>
+            <code class="bg-slate-700 rounded py-1 px-2">Next.js</code>
+            <code class="bg-slate-700 rounded py-1 px-2">SASS</code>
+            <code class="bg-slate-700 rounded py-1 px-2">Styled Components</code>
+            <code class="bg-slate-700 rounded py-1 px-2">SEO</code>
+            <code class="bg-slate-700 rounded py-1 px-2">GCP</code>
+            <code class="bg-slate-700 rounded py-1 px-2">Contentful</code>
+            <code class="bg-slate-700 rounded py-1 px-2">Pardot</code>
+            <code class="bg-slate-700 rounded py-1 px-2">Responsive design</code>
+          </p>
+        </div>
+
+        <div class="project my-5">
+          <h4 class="font-bold italic my-1">
+            Project: Spotify for Brands - South East Asia - Spotify
+          </h4>
+          <ul class="list-disc ml-10 my-2">
+            <li>Redesigned the Spotify For Brands portal for the South East Asia market</li>
+            <li>
+              Developed Next.js modules that allowed users to create dynamic page content via
+              Contentful CMS
+            </li>
+            <li>Integrated with Contentful for multi-lingual content management</li>
+            <li>Developed the contact form, integrated with Pardot</li>
+            <li>
+              Implemented mobile first components based on UI/UX templates provided by the client
+            </li>
+          </ul>
+          <p class="leading-7">
+            <b>Technologies Used:</b>
+            <code class="bg-gray-700 rounded py-1 px-2">Next.js</code>
+            <code class="bg-gray-700 rounded py-1 px-2">React.js</code>
+            <code class="bg-gray-700 rounded py-1 px-2">SASS</code>
+            <code class="bg-gray-700 rounded py-1 px-2">Styled Components</code>
+            <code class="bg-gray-700 rounded py-1 px-2">SEO</code>
+            <code class="bg-gray-700 rounded py-1 px-2">GCP</code>
+            <code class="bg-gray-700 rounded py-1 px-2">Contentful</code>
+            <code class="bg-gray-700 rounded py-1 px-2">Pardot</code>
+            <code class="bg-gray-700 rounded py-1 px-2">Responsive design</code>
+          </p>
+        </div>
+        <div class="project my-5">
+          <h4 class="font-bold italic my-1">Project: Process Twins - Google</h4>
+          <ul class="list-disc ml-10 my-2">
+            <li>Developed authentication logic with Google OAuth via Firebase</li>
+            <li>Integrated Angular with the Java REST API</li>
+            <li>Implemented 3D canvas with mxGraph</li>
+          </ul>
+          <p class="leading-7">
+            <b>Technologies Used:</b>
+            <code class="bg-gray-700 rounded py-1 px-2">Nrwl's NX</code>
+            <code class="bg-gray-700 rounded py-1 px-2">Angular</code>
+            <code class="bg-gray-700 rounded py-1 px-2">Material Design</code>
+            <code class="bg-gray-700 rounded py-1 px-2">Boostrap</code>
+            <code class="bg-gray-700 rounded py-1 px-2">SASS</code>
+            <code class="bg-gray-700 rounded py-1 px-2">Firebase,</code>
+            <code class="bg-gray-700 rounded py-1 px-2">Google Cloud Platform</code>
+            <code class="bg-gray-700 rounded py-1 px-2">Java</code>
+            <code class="bg-gray-700 rounded py-1 px-2">Maven</code>
+            <code class="bg-gray-700 rounded py-1 px-2">mxGraph</code>
+          </p>
+        </div>
+        <div class="project my-5"></div>
+      </div>
+
+      <div id="company-coach" class="my-5">
+        <h3 class="uppercase text-xl text-slate-200 font-bold">
+          Web & Mobile Developer - Coacht IT
+        </h3>
+        <p class="text-lg font-bold">July 2018 - November 2019</p>
+        <div class="project my-5">
+          <h4 class="font-bold my-1 italic">Managerial and Software Management</h4>
+          <ul class="list-disc ml-10 my-2">
+            <li>Mentored junior web developers</li>
+            <li>Implemented git workflow for all non-SAP projects</li>
+          </ul>
+        </div>
+        <div class="project my-5">
+          <h4 class="font-bold italic my-2">Project: NextMobile</h4>
+          <ul class="list-disc ml-10 my-2">
+            <li>Developed and maintained a hybrid mobile and PWA application</li>
+            <li>Designed, built and deployed a serverless REST API to Firebase Functions</li>
+            <li>Implemented realtime responses with RxJS and angular-firebase</li>
+          </ul>
+          <p class="leading-7">
+            <b>Technologies Used:</b>
+            <code class="bg-slate-700 rounded py-1 px-2">Ionic</code>
+            <code class="bg-slate-700 rounded py-1 px-2">Cordova</code>
+            <code class="bg-slate-700 rounded py-1 px-2">Angular</code>
+            <code class="bg-slate-700 rounded py-1 px-2">Firebase</code>
+            <code class="bg-slate-700 rounded py-1 px-2">GCP</code>
+            <code class="bg-slate-700 rounded py-1 px-2">Nodejs</code>
+            <code class="bg-slate-700 rounded py-1 px-2">Express</code>
+            <code class="bg-slate-700 rounded py-1 px-2">REST API</code>
+          </p>
+        </div>
+        <div class="project my-5">
+          <h4 class="font-bold my-1 italic">Project: Transfer Price and CAT42</h4>
+          <p>
+            Online solution built for calculating the best transfer price and CAT42 (Brazilian tax
+            return for companies) for companies across the Brazilian market. Developed the UI/UX
+            for the application using Razor template engine and jQuery with responsive design
+            (mobile first).
+          </p>
+          <p class="leading-7">
+            <b>Technologies Used:</b>
+            <code class="bg-slate-700 rounded py-1 px-2">.NET Core</code>
+            <code class="bg-slate-700 rounded py-1 px-2">SQL Server</code>
+            <code class="bg-slate-700 rounded py-1 px-2">Razor</code>
+            <code class="bg-slate-700 rounded py-1 px-2">jQuery</code>
+            <code class="bg-slate-700 rounded py-1 px-2">SASS</code>
+            <code class="bg-slate-700 rounded py-1 px-2">BootStrap</code>
+            <code class="bg-slate-700 rounded py-1 px-2">Gulp</code>
+          </p>
+        </div>
+      </div>
+
+      <div id="company-freelance" class="my-5">
+        <h3 class="uppercase text-xl text-slate-200 font-bold">Web developer - Freelance</h3>
+        <p class="text-lg font-bold">October 2015 - July 2018</p>
+        <ul class="list-disc ml-10 my-2">
+          <li>Built SEO optimized websites and e-commerces for small businesses in my local area</li>
+          <li>Parsed WordPress theme to plain HTML and CSS</li>
+          <li>Created educational videos with programming topics such as inheritance, UML and SQL language</li>
         </ul>
-      </header>
+        <p class="leading-7">
+          <b>Technologies Used:</b>
+          <code class="bg-slate-700 rounded py-1 px-2">WordPress</code>
+          <code class="bg-slate-700 rounded py-1 px-2">wooCommerce</code>
+          <code class="bg-slate-700 rounded py-1 px-2">React.js</code>
+          <code class="bg-slate-700 rounded py-1 px-2">jQuery</code>
+          <code class="bg-slate-700 rounded py-1 px-2">CSS</code>
+          <code class="bg-slate-700 rounded py-1 px-2">BootStrap</code>
+        </p>
+      </div>
+    </section>
 
-      <section id="skills" class="container mx-auto mb-10">
-        <h2 class="font-bold text-3xl text-slate-200 mb-4">Skills and Qualifications</h2>
-        <p>✔ 7 years experience with JavaScript and frontend development</p>
-        <p>✔ 4 years experience with TypeScript</p>
-        <p>✔ Proficient Angular 2+ developer</p>
-        <p>✔ Experienced in React.js</p>
-        <p>✔ Google Certified Cloud Associate Engineer</p>
-        <p>✔ Studying Java</p>
-      </section>
+    <section id="education" class=" ">
+      <h2 class="font-bold text-2xl my-4">Education</h2>
+      <h3>System Analysis and Development, Faculdade de Tecnologia de Sorocaba - Brazil</h3>
 
-      <section id="work-experience" class="container mx-auto">
-        <h2 class="font-bold text-3xl text-slate-200 mb-4">Work Experience</h2>
+      <h2 class="font-bold text-2xl my-4">Certifications</h2>
+      <h3>Google Cloud Associate Engineer</h3>
+    </section>
+  </main>
+</body>
 
-        <div id="company-gft" class="my-5">
-          <h3 class="uppercase text-xl text-slate-200 font-bold">
-            Frontend developer - GFT Technologies
-          </h3>
-          <p class="text-lg font-bold">November 2019 - Present</p>
-          <div class="project my-3">
-            <h4 class="font-bold italic my-1">Project: Youse Six - Youse Seguradora</h4>
-            <p>
-              Developing new functionality for the current portal where a third party can open and
-              follow up with an insurance claim.
-            </p>
-            <p>
-              <b>Environment:</b> React.js, CircleCI, Ruby on Rails, AWS Platform, Responsive design
-            </p>
-          </div>
-
-          <div class="project my-3">
-            <h4 class="font-bold italic my-1">Project: Phoenix - BNY Mellon</h4>
-            <p>
-              Online solution for Pricing and Liquidity processes for assets and investment funds
-              managed by the client. I was responsible for prototyping with the client, creating new
-              functionalities, code maintenance, code review and code approval. Written the frontend
-              application using Angular v9
-            </p>
-            <p>
-              <b>Environment:</b> Next.js, React.js, SASS, Styled Components, SEO, Google Cloud
-              Platform, Contentful, Pardot, Responsive design
-            </p>
-          </div>
-
-          <div class="project my-3">
-            <h4 class="font-bold italic my-1">
-              Project: Spotify for Brands - South East Asia - Spotify
-            </h4>
-            <p>
-              Redesigned the Spotify For Brands portal for the South East Asia market, integrated
-              with Contentful for multi-lingual content management. Implemented the contact form,
-              integrated with Pardot; Responsive design based on UI provided by the client;
-              Developed 11 of the components used by the application using Next.js.
-            </p>
-            <p>
-              <b>Environment:</b> Next.js, React.js, SASS, Styled Components, SEO, Google Cloud
-              Platform, Contentful, Pardot, Responsive design
-            </p>
-          </div>
-          <div class="project my-3">
-            <h4 class="font-bold italic my-1">Project: Process Twins - Google</h4>
-            <p>
-              An online Digital Twin application with Drag and Drop capabilities and a 3D canvas to
-              design the processes. The user can setup parameters, alerts and outputs and simulate a
-              manufacturing run. The application also provides reporting and comparison for the
-              finished simulations. Developed Google Authentication using Firebase and Google
-              Platform ID; Developed integration with the Java API; Component and library based
-              design.
-            </p>
-            <p>
-              <b>Environment:</b> Nrwl's NX, Angular, Material Design, Boostrap, SASS, Firebase,
-              Google Cloud Platform, Java, Maven, mxGraph.
-            </p>
-          </div>
-          <div class="project my-3"></div>
-        </div>
-
-        <div id="company-coach" class="my-5">
-          <h3 class="uppercase text-xl text-slate-200 font-bold">
-            Web & Mobile Developer - Coacht IT
-          </h3>
-          <p class="text-lg font-bold">July 2018 - November 2019</p>
-          <div class="project my-3">
-            <h4 class="font-bold my-1 italic">Managerial and Software Management</h4>
-            <p>
-              Mentored other junior web developers; - Implemented git workflow for all non-SAP
-              projects;
-            </p>
-          </div>
-          <div class="project my-3">
-            <h4 class="font-bold italic my-2">Project: NextMobile</h4>
-            <p>
-              A hybrid mobile (iOS and Android) and PWA solution integrated with backoffice SAP ERP,
-              supporting approval and requests of purchase orders, invoices, travel expenses, and
-              other finance processes. Developed & maintained the hybrid mobile and PWA solution;
-              Built and implemented a serverless REST API with Nodejs; Developed the integration
-              with third-party API through RxJS and Observable (Reactive programming).
-            </p>
-            <p>
-              <b>Environment:</b> Ionic, Cordova, Angular, Firebase, Google Cloud Platform, Nodejs,
-              Express, REST API
-            </p>
-          </div>
-          <div class="project my-3">
-            <h4 class="font-bold my-1 italic">Project: Transfer Price and CAT42</h4>
-            <p>
-              Online solution built for calculating the best transfer price and CAT42 (Brazilian tax
-              return for companies) for companies across the Brazilian market. Developed the UI/UX
-              for the application using Razor template engine and jQuery with responsive design
-              (mobile first).
-            </p>
-            <p>
-              <b>Environment:</b> .NET Core, C#, SQL Server, Razor, jQuery, SASS, Bootstrap, Gulp;
-            </p>
-          </div>
-          <div class="project my-3">
-            <h4 class="font-bold my-1 italic">Project: "Work with Us"</h4>
-            <p>
-              ATS system built for easier management for candidates resumes and screening by
-              management. Developed and maintained the project's application using MVC pattern;
-              Hosted and managed using LAMP stack; Front-end application using the Blade templete
-              engine and jQuery.
-            </p>
-            <p>
-              <b>Environment:</b> PHP, Laravel, Blade, jQuery, SASS, Bootstrap, LAMP, Composer,
-              MySQL, MVC.
-            </p>
-          </div>
-        </div>
-
-        <div id="company-freelance" class="my-5">
-          <h3>Web developer - Freelance</h3>
-          <p>October 2015 - July 2018</p>
-          As a freelance developer, I've built websites to help small businesses expand online and
-          increase sales. I've also helped to promote their sites on social media to engage
-          customers and provided SEO services which to improve their position on sites like Google,
-          Bing, Yahoo!.
-        </div>
-      </section>
-
-      <section id="education" class="container mx-auto">
-        <h2 class="font-bold text-2xl my-4">Education</h2>
-        <h3>Degree: System Analysis and Development</h3>
-        <h4>Institution: Faculdade de Tecnologia de Sorocaba</h4>
-
-        <h2>Certifications</h2>
-        <h3>Google Cloud Associate Engineer</h3>
-      </section>
-    </main>
-  </body>
 </html>
