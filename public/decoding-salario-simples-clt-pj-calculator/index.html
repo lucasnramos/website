@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+   · LNR
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Lucas Nogueira Ramos">
+<meta name="description" content="&lt;!DOCTYPE html&gt;
+
+  
+    
+    
+    
+    
+    
+    
+    
+    Decoding Salário Simples: Behind the CLT vs. PJ Calculator - Lucas Nogueira Ramos
+  
+
+  
+    
+      
+        Lucas Nogueira Ramos
+      
+      
+        
+          
+            Português
+          
+        
+        
+          Home
+        
+      
+    
+
+    
+      
+        
+          Decoding Salário Simples: Behind the CLT vs. PJ Calculator
+        
+
+        
+          Choosing between a permanent (CLT) role and a contractor (PJ) proposal is one of the
+          biggest dilemmas for Brazilian professionals. To solve this with data, we created
+          Salário Simples, a modern application that automates these complex
+          calculations. In this article, we explore the technology and logic that power this tool.
+        ">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="LNR">
+  <meta name="twitter:description" content="&lt;!DOCTYPE html&gt; Decoding Salário Simples: Behind the CLT vs. PJ Calculator - Lucas Nogueira Ramos Lucas Nogueira Ramos Português Home Decoding Salário Simples: Behind the CLT vs. PJ Calculator Choosing between a permanent (CLT) role and a contractor (PJ) proposal is one of the biggest dilemmas for Brazilian professionals. To solve this with data, we created Salário Simples, a modern application that automates these complex calculations. In this article, we explore the technology and logic that power this tool.">
+
+<meta property="og:url" content="http://localhost:1313/decoding-salario-simples-clt-pj-calculator/">
+  <meta property="og:site_name" content="LNR">
+  <meta property="og:title" content="LNR">
+  <meta property="og:description" content="&lt;!DOCTYPE html&gt; Decoding Salário Simples: Behind the CLT vs. PJ Calculator - Lucas Nogueira Ramos Lucas Nogueira Ramos Português Home Decoding Salário Simples: Behind the CLT vs. PJ Calculator Choosing between a permanent (CLT) role and a contractor (PJ) proposal is one of the biggest dilemmas for Brazilian professionals. To solve this with data, we created Salário Simples, a modern application that automates these complex calculations. In this article, we explore the technology and logic that power this tool.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/decoding-salario-simples-clt-pj-calculator/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      LNR
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="/pt/"></a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/decoding-salario-simples-clt-pj-calculator/">
+          
+        </a>
+      </h1>
+    </header>
+
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- for development only -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../custom.css" />
+    <title>Decoding Salário Simples: Behind the CLT vs. PJ Calculator - Lucas Nogueira Ramos</title>
+  </head>
+
+  <body class="bg-slate-900 text-slate-200">
+    <nav class="bg-slate-800 py-4 px-6 flex justify-between items-center shadow-md">
+      <div class="text-xl font-bold text-blue-400">
+        <a href="../index.html">Lucas Nogueira Ramos</a>
+      </div>
+      <ul class="flex space-x-6">
+        <li>
+          <a
+            href="./desvendando-salario-simples-calculadora-clt-pj.html"
+            class="hover:text-blue-400 transition-colors"
+          >
+            Português
+          </a>
+        </li>
+        <li>
+          <a href="../index.html" class="hover:text-blue-400 transition-colors">Home</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="container mx-auto px-4 py-20 max-w-4xl">
+      <article class="prose prose-invert prose-blue lg:prose-xl mx-auto">
+        <h1
+          class="text-4xl md:text-5xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600"
+        >
+          Decoding Salário Simples: Behind the CLT vs. PJ Calculator
+        </h1>
+
+        <p class="text-xl text-slate-300 mb-10 leading-relaxed">
+          Choosing between a permanent (CLT) role and a contractor (PJ) proposal is one of the
+          biggest dilemmas for Brazilian professionals. To solve this with data, we created
+          <strong>Salário Simples</strong>, a modern application that automates these complex
+          calculations. In this article, we explore the technology and logic that power this tool.
+        </p>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold mb-6 text-blue-400 border-b border-slate-700 pb-2">
+            The Tech Stack
+          </h2>
+          <p class="mb-4">The project was built using the latest tools in the Web ecosystem:</p>
+          <ul class="list-disc ml-8 space-y-3">
+            <li>
+              <strong>Next.js 16 (App Router):</strong> Leveraging optimized server and client
+              components.
+            </li>
+            <li>
+              <strong>React 19:</strong> Taking advantage of performance improvements and the
+              library's new features.
+            </li>
+            <li>
+              <strong>TypeScript:</strong> Ensuring type safety across all financial calculations
+              and avoiding common precision errors.
+            </li>
+            <li>
+              <strong>Tailwind CSS 4.0:</strong> For a responsive, clean interface with native Dark
+              Mode support.
+            </li>
+          </ul>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold mb-6 text-blue-400 border-b border-slate-700 pb-2">
+            Business Logic: The Heart of the App
+          </h2>
+          <p class="mb-6">
+            The complexity of Salário Simples lies in the accuracy of Brazilian tax rules, divided
+            into two main modules:
+          </p>
+
+          <div class="space-y-8">
+            <div>
+              <h3 class="text-2xl font-bold mb-4 text-slate-100">1. The CLT World</h3>
+              <p class="mb-4">
+                The calculation engine (<code>salaryCalculator.ts</code>) processes the progressive
+                <strong>INSS</strong> (social security) brackets and <strong>IRRF</strong> (income
+                tax) rates, including deductions for dependents. Beyond monthly net pay, the app
+                projects annual income by including the <strong>13th salary</strong> and
+                <strong>vacation bonuses</strong>, providing a realistic view of total earnings.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-bold mb-4 text-slate-100">2. The PJ Ecosystem (Simples Nacional)</h3>
+              <p class="mb-4">
+                In the PJ module (<code>pjCalculator.ts</code>), we focus on the
+                <strong>Simples Nacional (Annex V)</strong>. The logic includes:
+              </p>
+              <ul class="list-disc ml-8 space-y-2">
+                <li><strong>Factor R:</strong> Defaulted to 28% via Pro-labore for tax optimization.</li>
+                <li>
+                  <strong>Corporate Taxes:</strong> Automatic calculation of the effective tax rate
+                  based on annual revenue.
+                </li>
+                <li>
+                  <strong>Double Taxation Handling:</strong> The app deducts both personal taxes
+                  (INSS/IRRF on pro-labore) and corporate taxes to show the true net profit.
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-bold mb-4 text-slate-100">3. The "Magic" of PJ Equivalency</h3>
+              <p>
+                A standout feature is the equivalency search. Using a
+                <strong>binary search algorithm</strong> (running 30 iterations in milliseconds),
+                the system finds exactly how much you need to invoice as a PJ contractor to match
+                the annual net income of a specific CLT salary.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold mb-6 text-blue-400 border-b border-slate-700 pb-2">
+            Deployment and CI/CD: Automating the Workflow
+          </h2>
+          <p class="mb-6">
+            To ensure every improvement reaches the user safely, we use a robust
+            <strong>CI/CD</strong> pipeline:
+          </p>
+          <ol class="list-decimal ml-8 space-y-4">
+            <li>
+              <strong>GitHub Actions:</strong> Every Pull Request or Push to the main branch
+              triggers an automated workflow that runs <code>lint</code> (ESLint) and the Next.js
+              <code>build</code>. This ensures the code is healthy before it even leaves the
+              repository.
+            </li>
+            <li>
+              <strong>Vercel Deployment:</strong> Once the code passes the GitHub Actions checks,
+              Vercel handles the deployment. Native integration allows for "Deploy Previews" for
+              every branch, making it easy to review new features.
+            </li>
+          </ol>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold mb-6 text-blue-400 border-b border-slate-700 pb-2">
+            Conclusion
+          </h2>
+          <p class="mb-6">
+            Salário Simples proves that financial tools don't have to be complex or uninviting.
+            With a solid stack and efficient algorithms, we provide clarity for career
+            decision-making.
+          </p>
+          <hr class="border-slate-700 mb-6" />
+          <p class="italic text-slate-400">
+            Like the project? Check out the code on GitHub and simplify your calculations!
+          </p>
+        </section>
+      </article>
+    </main>
+
+    <footer class="bg-slate-900 py-8 px-3 text-center mt-8 border-t border-slate-800">
+      <p>2025 Lucas Nogueira Ramos</p>
+      <p>This site uses no cookies, tracks no data and works without JavaScript</p>
+    </footer>
+  </body>
+</html>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2018 -
+    
+    2026
+     Lucas Nogueira Ramos 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

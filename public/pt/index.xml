@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LNR</title>
+    <link>https://lucasnramos.com/pt/</link>
+    <description>Recent content on LNR</description>
+    <generator>Hugo</generator>
+    <language>pt</language>
+    <lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lucasnramos.com/pt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projeto: Salário Simples</title>
+      <link>https://lucasnramos.com/pt/decodificando-salario-simples/</link>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://lucasnramos.com/pt/decodificando-salario-simples/</guid>
+      <description>&lt;h1 id=&#34;decodificando-o-salário-simples-por-trás-do-comparador-clt-vs-pj&#34;&gt;&#xA;  Decodificando o Salário Simples: por trás do comparador CLT vs. PJ&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#decodificando-o-sal%c3%a1rio-simples-por-tr%c3%a1s-do-comparador-clt-vs-pj&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Escolher entre um emprego CLT e uma proposta como PJ é um dos maiores dilemas para profissionais no Brasil. Para resolver isso com dados, criamos o &lt;strong&gt;Salário Simples&lt;/strong&gt;, uma aplicação que automatiza esses cálculos complexos. Aqui vai um resumo da tecnologia e da lógica por trás da ferramenta.&lt;/p&gt;&#xA;&lt;h2 id=&#34;stack-de-tecnologia&#34;&gt;&#xA;  Stack de tecnologia&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#stack-de-tecnologia&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Next.js 16 (App Router):&lt;/strong&gt; uso otimizado de componentes server/client&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;React 19:&lt;/strong&gt; melhorias de performance e novos recursos&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;TypeScript:&lt;/strong&gt; segurança de tipos e precisão nos cálculos financeiros&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tailwind CSS 4:&lt;/strong&gt; interface responsiva com suporte nativo a modo escuro&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;lógica-de-negócio&#34;&gt;&#xA;  Lógica de negócio&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#l%c3%b3gica-de-neg%c3%b3cio&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;A complexidade está nas regras tributárias brasileiras, divididas em dois módulos:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

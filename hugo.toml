@@ -1,0 +1,110 @@
+baseURL = 'https://lucasnramos.com/'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+disableDefaultLanguageRedirect = false
+theme = 'coder'
+title = 'LNR'
+
+[caches]
+	[caches.images]
+		dir = ':cacheDir/images'
+
+# Hugo Coder configuration
+enableEmoji = true
+
+[pagination]
+	pagerSize = 20
+
+[markup.highlight]
+	style = 'github-dark'
+
+[params]
+  author = 'Lucas Nogueira Ramos'
+  info = 'Full Stack Developer'
+  description = 'Just my website'
+  keywords = 'blog,developer,personal'
+  # Remember, images and static files should go into /statis/images
+  avatarurl = 'images/perfil_cyberpunk.png'
+  #gravatar = 'john.doe@example.com'
+
+  faviconSVG = '/img/favicon.svg'
+  favicon_32 = '/img/favicon-32x32.png'
+  favicon_16 = '/img/favicon-16x16.png'
+
+  since = 2018
+
+  enableTwemoji = true
+
+  colorScheme = 'auto'
+  hidecolorschemetoggle = false
+
+  [taxonomies]
+	  category = 'categories'
+	  series = 'series'
+	  tag = 'tags'
+	  author = 'authors'
+  [[params.social]]
+	  name = 'Github'
+	  icon = 'fa-brands fa-github fa-2x'
+	  weight = 1
+	  url = 'https://github.com/lucasnramos/'
+
+# Possible language configs
+[languages.en]
+	contentDir = 'content/en'
+	label = 'English'
+	locale = 'en-US'
+	languageName = ':uk:'
+	weight = 1
+
+[[languages.en.menu.main]]
+	name = 'About'
+	weight = 1
+	url = 'about/'
+
+[[languages.en.menu.main]]
+	name = 'Blog'
+	weight = 2
+	url = 'posts/'
+
+[[languages.en.menu.main]]
+	name = 'Projects'
+	weight = 3
+	url = 'projects/'
+
+[[languages.en.menu.main]]
+	name = 'Contact me'
+	weight = 5
+	url = 'contact/'
+
+[languages.pt]
+	contentDir = 'content/pt'
+	label = 'Português'
+	locale = 'pt-BR'
+	languageName = ':brazil:'
+	weight = 2
+
+[languages.pt.params]
+	description = 'Meu site pessoal'
+	info = 'Desenvolvedor Full Stack'
+	keywords = 'blog,desenvolvedor,pessoal'
+
+[[languages.pt.menu.main]]
+	name = 'Sobre'
+	weight = 1
+	url = 'about/'
+
+[[languages.pt.menu.main]]
+	name = 'Blog'
+	weight = 2
+	url = 'blog/'
+
+[[languages.pt.menu.main]]
+	name = 'Projetos'
+	weight = 3
+	url = 'projects/'
+
+[[languages.pt.menu.main]]
+	name = 'Contato'
+	weight = 5
+	url = 'contact/'
