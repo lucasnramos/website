@@ -48,6 +48,11 @@ enableEmoji = true
 	  icon = 'fa-brands fa-github fa-2x'
 	  weight = 1
 	  url = 'https://github.com/lucasnramos/'
+  [[params.social]]
+	  name = 'Email'
+	  icon = 'fa-solid fa-envelope fa-2x'
+	  weight = 2
+	  url = 'mailto:lucasnramos@gmail.com'
 
 # Possible language configs
 [languages.en]
@@ -66,16 +71,6 @@ enableEmoji = true
 	name = 'Blog'
 	weight = 2
 	url = 'posts/'
-
-[[languages.en.menu.main]]
-	name = 'Projects'
-	weight = 3
-	url = 'projects/'
-
-[[languages.en.menu.main]]
-	name = 'Contact me'
-	weight = 5
-	url = 'contact/'
 
 [languages.pt]
 	contentDir = 'content/pt'
@@ -97,14 +92,5 @@ enableEmoji = true
 [[languages.pt.menu.main]]
 	name = 'Blog'
 	weight = 2
-	url = 'blog/'
+	url = 'posts/'
 
-[[languages.pt.menu.main]]
-	name = 'Projetos'
-	weight = 3
-	url = 'projects/'
-
-[[languages.pt.menu.main]]
-	name = 'Contato'
-	weight = 5
-	url = 'contact/'
