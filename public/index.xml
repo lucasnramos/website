@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LNR</title>
+    <link>http://localhost:43773/</link>
+    <description>Recent content on LNR</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:43773/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project: Salário Simples</title>
+      <link>http://localhost:43773/posts/decoding-salario-simples-clt-pj-calculator/</link>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43773/posts/decoding-salario-simples-clt-pj-calculator/</guid>
+      <description>&lt;h1 id=&#34;decoding-salário-simples-behind-the-clt-vs-pj-calculator&#34;&gt;&#xA;  Decoding Salário Simples: Behind the CLT vs. PJ Calculator&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#decoding-sal%c3%a1rio-simples-behind-the-clt-vs-pj-calculator&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Choosing between a permanent (CLT) role and a contractor (PJ) proposal is one of the&#xA;biggest dilemmas for Brazilian professionals. To solve this with data, we created&#xA;&lt;!-- raw HTML omitted --&gt;Salário Simples&lt;!-- raw HTML omitted --&gt;, a modern application that automates these complex&#xA;calculations. In this article, we explore the technology and logic that power this tool.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:43773/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43773/about/</guid>
+      <description>&lt;p&gt;Senior Software Engineer with 8 years of experience delivering scalable,&#xA;high-performance applications across web, mobile, and cloud environments.&#xA;Proven ability to turn complex problems into clean, maintainable solutions.&#xA;Strong full-stack expertise with a pragmatic approach to choosing the right&#xA;tools. Experienced in leading frontend architecture, mentoring developers, and&#xA;driving quality through testing and CI/CD.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-skills&#34;&gt;&#xA;  KEY SKILLS&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#key-skills&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Programming Languages: JavaScript/TypeScript, C#, Golang, Kotlin&lt;/li&gt;&#xA;&lt;li&gt;Frontend Technologies: Angular, React, Next.js, Responsive Design, Android.&lt;/li&gt;&#xA;&lt;li&gt;Backend Technologies: Node.js, Nest.js, .NET,  REST APIs, GraphQL.&lt;/li&gt;&#xA;&lt;li&gt;Databases: Firebase Realtime Database, PostgreSQL, MySQL, MongoDB.&lt;/li&gt;&#xA;&lt;li&gt;Tools &amp;amp; Frameworks: NX, Git, CI/CD, Storybook, Jest, Cypress.&lt;/li&gt;&#xA;&lt;li&gt;Cloud Platforms: Google Cloud Platform (GCP), Azure.&lt;/li&gt;&#xA;&lt;li&gt;Methodologies: Agile, Scrum, Kanban.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
