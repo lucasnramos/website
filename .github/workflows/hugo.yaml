@@ -23,10 +23,12 @@ jobs:
       GO_VERSION: 1.26.1
       HUGO_VERSION: 0.160.0
       NODE_VERSION: 24.14.1
-      TZ: Americas/Sao_Paulo
+      TZ: America/Sao_Paulo
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          submodules: recursive
       - name: Setup Go
         uses: actions/setup-go@v6
         with:
@@ -76,7 +78,9 @@ jobs:
           restore-keys:
             hugo-
       - name: Build the site
-        run: hugo --gc --minify
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
