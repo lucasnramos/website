@@ -2,80 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:43773/pt/</loc>
+    <loc>https://lucasnramos.com/pt/</loc>
     <lastmod>2026-04-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:43773/"
+                href="https://lucasnramos.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:43773/pt/"
+                href="https://lucasnramos.com/pt/"
                 />
   </url><url>
-    <loc>http://localhost:43773/pt/decodificando-salario-simples/</loc>
+    <loc>https://lucasnramos.com/pt/decodificando-salario-simples/</loc>
     <lastmod>2026-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43773/pt/authors/</loc>
+    <loc>https://lucasnramos.com/pt/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:43773/authors/"
+                href="https://lucasnramos.com/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:43773/pt/authors/"
+                href="https://lucasnramos.com/pt/authors/"
                 />
   </url><url>
-    <loc>http://localhost:43773/pt/categories/</loc>
+    <loc>https://lucasnramos.com/pt/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:43773/categories/"
+                href="https://lucasnramos.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:43773/pt/categories/"
+                href="https://lucasnramos.com/pt/categories/"
                 />
   </url><url>
-    <loc>http://localhost:43773/pt/series/</loc>
+    <loc>https://lucasnramos.com/pt/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:43773/series/"
+                href="https://lucasnramos.com/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:43773/pt/series/"
+                href="https://lucasnramos.com/pt/series/"
                 />
   </url><url>
-    <loc>http://localhost:43773/pt/about/</loc>
+    <loc>https://lucasnramos.com/pt/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:43773/about/"
+                href="https://lucasnramos.com/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:43773/pt/about/"
+                href="https://lucasnramos.com/pt/about/"
                 />
   </url><url>
-    <loc>http://localhost:43773/pt/tags/</loc>
+    <loc>https://lucasnramos.com/pt/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:43773/tags/"
+                href="https://lucasnramos.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:43773/pt/tags/"
+                href="https://lucasnramos.com/pt/tags/"
                 />
   </url>
 </urlset>

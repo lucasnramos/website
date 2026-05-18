@@ -1,5 +1,5 @@
 +++
-title = One week without vim and vim motions
+title = "One week without vim and vim motions"
 draft = true
 date = "2026-05-11"
 +++
