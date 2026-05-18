@@ -49,6 +49,11 @@ enableEmoji = true
 	  weight = 1
 	  url = 'https://github.com/lucasnramos/'
   [[params.social]]
+	  name = 'LinkedIn'
+	  icon = 'fa-brands fa-linkedin fa-2x'
+	  weight = 1
+	  url = 'https://linkedin.com/in/lucas-nogueira-ramos/'
+  [[params.social]]
 	  name = 'Email'
 	  icon = 'fa-solid fa-envelope fa-2x'
 	  weight = 2
