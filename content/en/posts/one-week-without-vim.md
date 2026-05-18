@@ -37,6 +37,26 @@ This is the actual day I started writing this post.
 
 Honest to God, today i did not miss it.
 
+## Day 3 - Wednesday
+
+Today I coded a little bit more. Most of problem now seems really to be the constant need to 
+move right hand to reach arrow keys or mouse to navigate text. After a few hours, my shoulder 
+can start to complain (don't get old kids).
+
+## Day 4 - Thursday
+
+Today I'm continuing to write this post. First iteration done in Micro editor on linux terminal.
+Micro is an editor that, for the most part, uses the same sort of arrow key workflows we are used to 
+on GUI applications.
+
+## Day 5 - Friday
+
+Today is the first real miss of vim motions on navigating code and writing more of this post.
+For writing itself it makes no difference, but as soon as we need to edit stuff, not having the
+motions is annoying. Again, particularly the hand moving all over the place.
+
+I seem to recall some shoulder pain during the week because of movement - or maybe is in my head?
+
 ## Writing this post
 
 Since the goal wass to not use vim and vim motions I decided to write this on Vscode.
@@ -44,3 +64,12 @@ writing amore text does make it so i miss the vim more, because going from mode 
 That said, not using vim forces to use the builtin features of the editor, which in vscode case, therés a lot we can levarge.
 
 I write my posts in markdown, so it's just text.
+
+## Conclusion
+
+I feel like I can go back to this workflow in general for my work an there's a vantage that the faster and better I get with arrow keys flow,
+It will auto apply to almost every program i ever use, ever - Teams does not have vim, same for thunderbird, outlook, browsers, etc.
+
+However, I do miss the zen mode for writing a lot and for coding too. Looks like at the of the day, both can work and I can find the best adjustment.
+
+Tune in next time where I try to ONLY use nvim for all my writing / coding / as much as I can
