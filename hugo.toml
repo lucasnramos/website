@@ -24,7 +24,7 @@ enableEmoji = true
   description = 'Just my website'
   keywords = 'blog,developer,personal'
   # Remember, images and static files should go into /statis/images
-  avatarurl = 'images/perfil_cyberpunk.png'
+  avatarurl = 'images/perfil.webp
   #gravatar = 'john.doe@example.com'
 
   faviconSVG = '/img/favicon.svg'
