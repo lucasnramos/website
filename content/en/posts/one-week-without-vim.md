@@ -1,75 +1,97 @@
 +++
 title = "One week without vim and vim motions"
-draft = true
 date = "2026-05-11"
 +++
 
 # One week without using vim or vim motions
 
-One of the anoyances of usimg vim in other programs (Vscode, JetBrains IDEs, Obsidian) is the "clash" with existing shrotcuts or workflows.
-For example, say I' have a code window open and vim is flowing, but i need to intereact with a builting funciton of the editor. Now I have to "constext switch" and go back to "tradicional"
-typing / shrocuts (arrow keys, Ctrl, Shift and so on). For some reason, this flow-break annoys the heck outt of me.
-At the same time, being in t he zone and feeling like I'm flying in the vim motions and not having to move my hand as much feels pretty good.
+One of the annoyances of using vim motions in other programs (Vscode, JetBrains
+IDEs, Obsidian) is the "clash" with existing shortcuts or workflows.
 
-I'm not a fast typist (currently I max out at 80 words per minute, on my best tests), so i thing in a way, vim motions help make the process faster - they can compensate some possible slowness
-of typing and "mechanical movement".
-I feel OK with vim, not an exepert by any stretch but confortable with the common commands and modes.
+For example, say I have a code window open and vim is flowing, but I need to
+interact with a built-in function of the editor. Now I have to "context
+switch" and go back to "traditional" shortcuts (arrow keys, Ctrl, Shift and so
+on).
 
-However, with LLM's capable writing a lot (or most ) of my code, speed of typing is less of an issue.
-Aside: I'm not saying llm is capable of amazing code and for proompting, typinhg faster and more effeciently is good.
+For some reason, this flow-break annoys the heck out of me. At the same time,
+being in the zone and feeling like I'm flying with vim motions feels awesome.
 
-So as an experiment I decided to run a week withtout any vim motions - or vim /nvim proper.
-NO particualar goal in mind, just having fun and seeign how I feel at the end.
+I'm not a fast typist (currently I max out at 80 words per minute on my best
+tests), so I think in a way, vim motions help make the process faster - they
+can compensate for some possible slowness of typing and "mechanical movement".
 
-Maybe one goals is to asses the clashes mentioned above, is more os less a problem
-than learning the different shortucst of various programs (JetBrains, vscode, obsidan, Office, so on).
+However, with LLMs capable of writing a lot (or most) of my code, speed of
+typing is less of an issue.
 
-A thte end of day maybe the only true perfection run is to have everyting on the terminal and neovim. Maybe a future challenge.
+Aside: I'm not saying LLMs are capable of amazing code just from "prompting",
+and that typing faster and more efficiently isn't good.
+
+So as an experiment, I decided to go a week without any vim motions - or vim
+/nvim proper.
+
+No particular goal in mind, just having fun and checking how I feel at the
+end.
+
+Maybe one goal is to assess whether the clashes mentioned above are more or
+less of a problem than learning the different shortcuts of various programs
+(JetBrains, VS Code, Obsidian, Office, and so on).
+
+At the end of the day, maybe the only true perfect run is to have everything
+on the terminal and neovim. Perhaps a future challenge.
 
 ## Day 1 - Monday
 
-Most of my work for that day was debugging and testing so not a lot of code or intense typing.
-For the most part, I don't think I've missed.
+Most of my work that day was debugging and testing, so not a lot of code or
+intense typing. For the most part, I don't think I missed it.
 
 ## Day 2 - Tuesday
 
 This is the actual day I started writing this post.
 
-Honest to God, today i did not miss it.
+Honest to God, today I did not miss it.
 
 ## Day 3 - Wednesday
 
-Today I coded a little bit more. Most of problem now seems really to be the constant need to 
-move right hand to reach arrow keys or mouse to navigate text. After a few hours, my shoulder 
-can start to complain (don't get old kids).
+Today I coded a little bit more. Most of the problem now really seems to be
+the constant need to move my right hand to reach the arrow keys or mouse to
+navigate text. After a few hours, my shoulder starts to complain (don't get
+old, kids).
 
 ## Day 4 - Thursday
 
-Today I'm continuing to write this post. First iteration done in Micro editor on linux terminal.
-Micro is an editor that, for the most part, uses the same sort of arrow key workflows we are used to 
-on GUI applications.
+Today I'm continuing to write this post. First iteration done in the Micro
+editor on the Linux terminal. Micro is an editor that, for the most part,
+uses the same sort of arrow key workflows we are used to in GUI applications.
 
 ## Day 5 - Friday
 
-Today is the first real miss of vim motions on navigating code and writing more of this post.
-For writing itself it makes no difference, but as soon as we need to edit stuff, not having the
-motions is annoying. Again, particularly the hand moving all over the place.
+Today is the first time I really missed vim motions for navigating code and
+writing more of this post. For writing itself it makes no difference, but as
+soon as I need to edit stuff, not having the motions is annoying. Again,
+particularly the hand moving all over the place.
 
-I seem to recall some shoulder pain during the week because of movement - or maybe is in my head?
+I seem to recall some shoulder pain during the week because of the movement -
+or maybe it's all in my head?
 
 ## Writing this post
 
-Since the goal wass to not use vim and vim motions I decided to write this on Vscode.
-writing amore text does make it so i miss the vim more, because going from mode to mode, fixing words, typos and etc with vim motions is faster for me.
-That said, not using vim forces to use the builtin features of the editor, which in vscode case, therés a lot we can levarge.
+Since the goal was to not use vim or vim motions, I decided to write this in
+VS Code. Writing more text does make me miss vim more, because going from
+mode to mode, fixing words, typos, etc. with vim motions is faster for me.
+That said, not using vim forces me to use the built-in features of the
+editor, which in VS Code's case, there's a lot we can leverage.
 
 I write my posts in markdown, so it's just text.
 
 ## Conclusion
 
-I feel like I can go back to this workflow in general for my work an there's a vantage that the faster and better I get with arrow keys flow,
-It will auto apply to almost every program i ever use, ever - Teams does not have vim, same for thunderbird, outlook, browsers, etc.
+I feel like I can go back to this workflow in general for my work, and
+there's an advantage in that the faster and better I get with the arrow keys
+flow, it will automatically apply to almost every program I ever use - Teams
+does not have vim, same for Thunderbird, Outlook, browsers, etc.
 
-However, I do miss the zen mode for writing a lot and for coding too. Looks like at the of the day, both can work and I can find the best adjustment.
+However, I do miss the zen mode for writing a lot and for coding too. Looks
+like at the end of the day, both can work and I can find the best balance.
 
-Tune in next time where I try to ONLY use nvim for all my writing / coding / as much as I can
+Tune in next time where I try to ONLY use nvim for all my writing / coding /
+as much as I can.
