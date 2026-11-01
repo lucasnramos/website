@@ -21,10 +21,10 @@ enableEmoji = true
 [params]
   author = 'Lucas Nogueira Ramos'
   info = 'Full Stack Developer'
-  description = 'Just my website'
+  description = 'My Website. Nothing Much'
   keywords = 'blog,developer,personal'
   # Remember, images and static files should go into /statis/images
-  avatarurl = 'images/perfil.webp
+  avatarurl = 'images/perfil.webp'
   #gravatar = 'john.doe@example.com'
 
   faviconSVG = '/img/favicon.svg'
@@ -80,7 +80,7 @@ enableEmoji = true
 	weight = 2
 
 [languages.pt.params]
-	description = 'Meu site pessoal'
+	description = 'Meu site. Nada demais'
 	info = 'Desenvolvedor Full Stack'
 	keywords = 'blog,desenvolvedor,pessoal'
 
