@@ -76,6 +76,7 @@ enableEmoji = true
 	contentDir = 'content/pt'
 	label = 'Português'
 	locale = 'pt-BR'
+	languageCode = 'pt-BR'
 	languageName = ':brazil:'
 	weight = 2
 
